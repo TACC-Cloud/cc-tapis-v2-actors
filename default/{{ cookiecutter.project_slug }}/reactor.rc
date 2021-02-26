@@ -1,0 +1,11 @@
+# Reactor mandatory settings
+REACTOR_NAME={{ cookiecutter.project_slug }}
+# REACTOR_DESCRIPTION
+REACTOR_ALIAS={{ cookiecutter.name }}
+REACTOR_STATELESS=0
+
+# Docker settings
+DOCKER_HUB_ORG={{ cookiecutter.docker_hub_org }}
+DOCKER_IMAGE_TAG={{ cookiecutter.name }}
+DOCKER_IMAGE_VERSION={{ cookiecutter.version }}
+DOCKER_USE_COMMIT_HASH=1

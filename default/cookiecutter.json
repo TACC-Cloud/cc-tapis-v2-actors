@@ -1,0 +1,15 @@
+{
+    "name": "application",
+    "description": "Short description of the application",
+    "version": "0.0.1",
+    "dockerfile": "Dockerfile",
+    "docker_namespace": "",
+    "docker_base_repo": "ubuntu:bionic",
+    "docker_hub_org": "tacc",
+    "project_slug": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}",
+    "_copy_without_render": [
+        "*reactor.rc",
+        "*reactor.py",
+        "*config.yml"
+    ]
+}
