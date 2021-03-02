@@ -1,0 +1,11 @@
+{
+    "name": "Word Count",
+    "token": true,
+    "description": "Counts up words in a file. Voila!",
+    "version": "0.0.1",
+    "dockerfile": "Dockerfile",
+    "docker_namespace": "",
+    "docker_base_repo": "sd2e/reactors:python3-edge",
+    "docker_hub_org": "tacc",
+    "project_slug": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}"
+}
