@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "AbacoMessage",
+    "description": "Generic Abaco JSON message",
+    "type": "object",
+    "properties": {
+        "my_message": {
+            "description": "",
+            "type": "string"
+        }
+    },
+    "required": ["my_message"]
+}

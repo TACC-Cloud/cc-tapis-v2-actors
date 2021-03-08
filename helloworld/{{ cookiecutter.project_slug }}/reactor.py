@@ -1,7 +1,7 @@
 import os
 
 from reactors.runtime import Reactor
-
+from reactors.version import version as reactors_version
 
 def main():
     

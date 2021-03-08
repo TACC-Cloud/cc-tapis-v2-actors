@@ -1,0 +1,13 @@
+{
+    "name": "Hello World",
+    "token": true,
+    "description": "Actor to say hello world!",
+    "version": "1.0.0",
+    "alias":"hello",
+    "reactor_stateless":true,
+    "dockerfile": "Dockerfile",
+    "docker_namespace": "reshg",
+    "docker_base_repo": "sd2e/reactor-base:python3",
+    "docker_hub_org": "reshg",
+    "project_slug": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}"
+}
