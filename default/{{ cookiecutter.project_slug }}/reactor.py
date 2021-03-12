@@ -1,10 +1,12 @@
 import os
+import sys
+import pdb
 
 from reactors.runtime import Reactor
 
 
 def main():
-    
+
     r = Reactor()
 
     # validate the message and context against schemas

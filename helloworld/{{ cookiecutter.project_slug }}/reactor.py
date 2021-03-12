@@ -1,10 +1,11 @@
 import os
+import sys
+import pdb
 
 from reactors.runtime import Reactor
-from reactors.version import version as reactors_version
 
 def main():
-    
+
     r = Reactor()
 
     # validate the message and context against schemas

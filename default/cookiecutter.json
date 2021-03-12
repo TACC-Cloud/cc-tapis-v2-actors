@@ -3,6 +3,8 @@
     "token": true,
     "description": "Short description of the reactor",
     "version": "0.0.1",
+    "alias":"hello",
+    "reactor_stateless": true,
     "dockerfile": "Dockerfile",
     "docker_namespace": "",
     "docker_base_repo": "sd2e/reactors:python3-edge",
