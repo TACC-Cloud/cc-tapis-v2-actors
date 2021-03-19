@@ -1,2 +1,2 @@
-Default Reactor
-===============
+Default actor
+=============

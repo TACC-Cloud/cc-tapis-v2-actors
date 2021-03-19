@@ -8,7 +8,7 @@ ADD requirements.txt /requirements.txt
 RUN pip3 install -r /requirements.txt
 
 # add the python script to docker container
-ADD default.py /default.py
+ADD echo.py /echo.py
 
 # command to run the python script
-CMD ["python", "/default.py"]
+CMD ["python", "/echo.py"]
