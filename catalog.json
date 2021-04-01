@@ -1,0 +1,12 @@
+{
+	"default": {
+		"name": "Default",
+		"description": "Basic code and configuration skeleton",
+		"level": "beginner"
+	},
+	"echo": {
+		"name": "Echo",
+		"description": "Echo input message",
+		"level": "beginner"
+	}
+}
