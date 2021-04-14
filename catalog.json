@@ -9,8 +9,8 @@
 		"description": "Echo input message",
 		"level": "beginner"
 	},
-	"sd2e_base": {
-		"name": "sd2e_base",
+	"rxbase": {
+		"name": "rxbase",
 		"description": "Default reactor context for docker://sd2e/reactors:python3",
 		"level": "beginner"
 	}
