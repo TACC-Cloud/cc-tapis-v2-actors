@@ -1,4 +1,4 @@
-# Reactor Template: Python 2.7.14
+# Reactor Template
 
 A TACC Reactor defines a function to take on TACC Cloud resources in response
 to a message. TACC Reactors run in the Abaco platform-as-a-service, which is

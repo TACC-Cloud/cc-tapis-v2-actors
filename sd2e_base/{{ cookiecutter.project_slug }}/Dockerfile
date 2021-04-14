@@ -1,19 +1,9 @@
-FROM ubuntu:18.04
-RUN apt-get update && apt-get -yq upgrade && \
-    apt-get install -yq git python3 python3-pip
+FROM {{ cookiecutter.docker_base_repo }}
 
-# ephemeral working directory
-ENV SCRATCH=/mnt/ephemeral-01
-WORKDIR ${SCRATCH}
-RUN chmod a+rwx ${SCRATCH} && chmod g+rwxs ${SCRATCH}
-
-# add reactor assets from repo
-ADD requirements.txt /tmp/requirements.txt
-# DEBUG
-# RUN python3 -m pip install -r /tmp/requirements.txt
+# add reactor assets
+ADD requirements.txt /requirements.txt
+RUN pip3 install -r /requirements.txt 
 ADD reactor.py /
 ADD config.yml /
 ADD context_schemas /
 ADD message_schemas /
-
-CMD ["python3", "/reactor.py"]
