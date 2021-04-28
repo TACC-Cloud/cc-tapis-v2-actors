@@ -84,3 +84,4 @@ If you have new actor templates to contribute, please follow the steps below:
 
 - Create a pull request to the **main** branch with the new features. 
 - The pull request will be reviewed and merged by the maintainer of this repository. 
+- Once a new template is added, it will be added to **catalog.json** to update the list of existing templates. 
