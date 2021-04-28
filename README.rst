@@ -72,3 +72,10 @@ With Tapis-CLI installed, we can use **cc-tapis-v2-actors**
     | setup | CookieCutter variable docker_registry=e      |
     | clone | Project path: ./echo                         |
     +-------+----------------------------------------------+
+ 
+ 
+#################
+How To Contribute
+#################
+
+
