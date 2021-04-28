@@ -1,12 +1,13 @@
-Default actor
+Echo actor
 =============
 
-This is a cookiecutter template for a "default" actor. 
+This is a cookiecutter template for an "echo" actor. 
+The actor is used to echo an input message. 
 
 The template can be used with Tapis CLI `tapis-cli` as follows:
 
 ```
-tapis actors init --template default
+tapis actors init --template echo
 +-------+----------------------------------------------+
 | stage | message                                      |
 +-------+----------------------------------------------+
