@@ -5,6 +5,8 @@ Tapis V2 Actors Templates
 A cookiecutter repository with project templates for Tapis V2 Actors. This repository provides the essential files required to build a Tapis V2 Actor. 
 It enables a user to easily start working by modifying a preexisting template for an actor project.
 
+To get started with creating an actor, running the ``tapis actors init`` command will fetch a very simple code skeleton you can fill in and deploy.
+
 cookiecutters is a command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template. 
 
 
