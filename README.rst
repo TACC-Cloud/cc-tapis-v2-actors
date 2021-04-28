@@ -78,4 +78,9 @@ With Tapis-CLI installed, we can use **cc-tapis-v2-actors**
 How To Contribute
 #################
 
+New actor templates are always welcome ! 
 
+If you have new actor templates to contribute, please follow the steps below:
+
+- Create a pull request to the **main** branch with the new features. 
+- The pull request will be reviewed and merged by the maintainer of this repository. 
