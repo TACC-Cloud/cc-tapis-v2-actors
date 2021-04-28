@@ -7,7 +7,7 @@ from reactors.version import version as reactors_version
 
 
 def main():
-    r = Reactor()
+    r = Reactor(tapis_optional=True)
 
     # validate the message and context against schemas
     r.validate_message(permissive=False)
