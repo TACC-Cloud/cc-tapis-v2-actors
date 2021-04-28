@@ -1,23 +1,24 @@
 Default actor
 =============
 
-This is a cookiecutter template for a "default" actor. 
+This is a cookiecutter template for a "echo" actor. 
 
 The template can be used with Tapis CLI `tapis-cli` as follows:
 
 ```
-tapis actors init --list-templates
-+-----------+-----------+-----------------------------------------------------------+----------+
-| id        | name      | description                                               | level    |
-+-----------+-----------+-----------------------------------------------------------+----------+
-| default   | Default   | Basic code and configuration skeleton                     | beginner |
-| echo      | Echo      | Echo input message                                        | beginner |
-| sd2e_base | sd2e_base | Default reactor context for                               | beginner |
-|           |           | docker://sd2e/reactors:python3                            |          |
-+-----------+-----------+-----------------------------------------------------------+----------+
+tapis actors init --template echo
++-------+----------------------------------------------+
+| stage | message                                      |
++-------+----------------------------------------------+
+| setup | Project path: ./echo                         |
+| setup | CookieCutter variable name=echo              |
+| setup | CookieCutter variable project_slug=echo      |
+| setup | CookieCutter variable docker_namespace=reshg |
+| setup | CookieCutter variable docker_registry=e      |
+| clone | Project path: ./echo                         |
++-------+----------------------------------------------+
 
-tapis actors init --template default 
 ``` 
 
-This would create a subfolder default/ with the required files. 
+This would create a subfolder echo/ with the required files. 
 
