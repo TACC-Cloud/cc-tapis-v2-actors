@@ -105,7 +105,7 @@ Documentation: https://github.com/cookiecutter/cookiecutter
      docker_hub_org []:
      project_slug [reactor]:
    
- This would create a project folder word-count-actor/ with the following tree: 
+This would create a project folder word-count-actor/ with the following tree: 
 
 .. code-block:: bash
 
