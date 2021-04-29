@@ -13,5 +13,10 @@
 		"name": "sd2e_base",
 		"description": "Default reactor context for docker://sd2e/reactors:python3",
 		"level": "beginner"
+	}, 
+	"tacc_reactor_base": {
+		"name":	"tacc_reactor_base", 
+		"description": "Default actor context for docker://sd2e/reactors:python3" ,
+		"level": "beginner"
 	}
 }
