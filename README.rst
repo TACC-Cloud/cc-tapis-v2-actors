@@ -28,7 +28,7 @@ The `Tapis-CLI <https://tapis-cli.readthedocs.io/en/latest/>`_ is available as a
     $ pip install tapis-cli
 
 
-With Tapis-CLI **installed and configured**, let us see how we can use our cookiecutter **cc-tapis-v2-actors**
+With Tapis-CLI **installed and configured**, let us see how we can use our cookiecutter **cc-tapis-v2-actors**.
 
 We can create a default actor with ``tapis actors init`` as shown below.
 
@@ -77,7 +77,7 @@ To use one of the above templates, we can do the following:
     +-------+----------------------------------------------+
 
 This would give a new_actor/ project with all the required files to help you create your own actor.
-For more information on what the different files do, check our documentation at `Tapis-CLI How-To-Guide <https://tapis-cli-how-to-guide.readthedocs.io/en/latest/actors/create_a_custom_actor.html>`_
+For more information on what the different files do, check our documentation at `Tapis-CLI How-To-Guide <https://tapis-cli-how-to-guide.readthedocs.io/en/latest/actors/create_a_custom_actor.html>`_.
 
 #################
 How To Contribute
@@ -88,6 +88,7 @@ New actor templates are always welcome !
 If you have a new actor template to contribute, please join our `Slack <http://bit.ly/join-tapis>`_ channel.
 
 Here is what happens when you contribute towards our repository:
+
 * You create a pull request to the **main** branch with the new features.
 * We review the pull request and merge it.
 * The new template is added to the **catalog.json** to update the list of existing templates.
