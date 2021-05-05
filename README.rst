@@ -2,7 +2,7 @@
 Tapis V2 Actors Templates
 #########################
 
-A `cookiecutter <https://github.com/cookiecutter/cookiecutterrepository>`_ with project templates for Tapis V2 Actors. This repository provides the essential files required to build a Tapis V2 Actor.
+A `cookiecutter <https://github.com/cookiecutter/cookiecutterrepository>`_ repository with project templates for Tapis V2 Actors. This repository provides the essential files required to build a Tapis V2 Actor.
 It enables a user to easily start working by modifying a preexisting template for an actor project.
 
 cookiecutters is a command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
@@ -12,8 +12,10 @@ cookiecutters is a command-line utility that creates projects from cookiecutters
 Get Started
 ###########
 
-This repository is consumed by `Tapis-CLI <https://tapis-cli.readthedocs.io/en/latest/>`_
+This repository is consumed by `Tapis-CLI <https://tapis-cli.readthedocs.io/en/latest/>`_.
 To get started with creating an actor, running the ``tapis actors init`` command will fetch a very simple code skeleton you can fill in and deploy.
+
+Let us begin by installing Tapis-CLI.
 
 -------------------------
 Installation of Tapis-CLI
@@ -28,7 +30,7 @@ The `Tapis-CLI <https://tapis-cli.readthedocs.io/en/latest/>`_ is available as a
 
 With Tapis-CLI **installed and configured**, let us see how we can use our cookiecutter **cc-tapis-v2-actors**
 
-We can create a default actor with `tapis actors init` as shown below.
+We can create a default actor with ``tapis actors init`` as shown below.
 
 .. code-block:: shell
 
@@ -86,8 +88,8 @@ New actor templates are always welcome !
 If you have a new actor template to contribute, please join our `Slack <http://bit.ly/join-tapis>`_ channel.
 
 Here is what happens when you contribute towards our repository:
-- You create a pull request to the **main** branch with the new features.
-- We review the pull request and merge it.
-- The new template is added to the **catalog.json** to update the list of existing templates.
+* You create a pull request to the **main** branch with the new features.
+* We review the pull request and merge it.
+* The new template is added to the **catalog.json** to update the list of existing templates.
 
 Hooray, thank you for contributing!
