@@ -2,7 +2,7 @@
 Tapis V2 Actors Templates
 #########################
 
-A `cookiecutter <https://github.com/cookiecutter/cookiecutterrepository>`_ repository with project templates for Tapis V2 Actors. This repository provides the essential files required to build a Tapis V2 Actor.
+A `cookiecutter <https://github.com/cookiecutter/cookiecutter>`_ repository with project templates for Tapis V2 Actors. This repository provides the essential files required to build a Tapis V2 Actor.
 It enables a user to easily start working by modifying a preexisting template for an actor project.
 
 cookiecutters is a command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
