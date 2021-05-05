@@ -1,8 +1,8 @@
-Echo actor
-==========
+SD2E base actor
+===============
 
-This is a cookiecutter template for a "echo" actor.
-We can use the template to create a new echo actor.  
+This is a cookiecutter template for a "sd2e_base" actor.
+We can use the template to create a new actor.  
 
 .. code-block:: shell
 
