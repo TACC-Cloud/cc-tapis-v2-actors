@@ -1,10 +1,10 @@
 {
     "name": "Echo",
     "token": true,
-    "description": "Actor to echo input message",
+    "description": "Actor to echo message",
     "version": "1.0.0",
     "alias": null,
-    "reactor_stateless":true,
+    "reactor_stateless": true,
     "dockerfile": "Dockerfile",
     "docker_namespace": "reshg",
     "docker_base_repo": "python:3.7-alpine",

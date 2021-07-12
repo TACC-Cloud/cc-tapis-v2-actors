@@ -4,6 +4,11 @@
 		"description": "Basic code and configuration skeleton",
 		"level": "beginner"
 	},
+	"echo": {
+		"name": "Echo",
+		"description": "Echo message",
+		"level": "beginner"
+	},
 	"hello_world": {
 		"name": "Hello World",
 		"description": "Say Hello, World!",
