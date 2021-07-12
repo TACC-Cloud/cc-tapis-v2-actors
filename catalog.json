@@ -4,18 +4,18 @@
 		"description": "Basic code and configuration skeleton",
 		"level": "beginner"
 	},
-	"echo": {
-		"name": "Echo",
-		"description": "Echo input message",
+	"hello_world": {
+		"name": "Hello World",
+		"description": "Say Hello, World!",
 		"level": "beginner"
 	},
 	"sd2e_base": {
 		"name": "sd2e_base",
 		"description": "Default reactor context for docker://sd2e/reactors:python3",
 		"level": "beginner"
-	}, 
+	},
 	"tacc_reactors_base": {
-		"name":	"tacc_reactors_base", 
+		"name":	"tacc_reactors_base",
 		"description": "Default actor context for docker://sd2e/reactors:python3" ,
 		"level": "beginner"
 	}
