@@ -1,8 +1,4 @@
-"""
-say Hello, World or the message received from user input
-
-:authors: Shweta Gopaulakrishnan (sgopal@tacc.utexas.edu)
-"""
+"""Say Hello, World or the message received from user input"""
 from agavepy.actors import get_context
 
 
@@ -10,10 +6,10 @@ def say_hello_world(m):
     """Print message from user if present, else echo "Hello, World"""
     # if user input is an empty message
     if m == " ":
-        print("Hello, World")
+        print("Actor says: Hello, World")
     # print the user input message
     else:
-        print(m)
+        print("Actor received message: {}".format(m))
 
 
 def main():
