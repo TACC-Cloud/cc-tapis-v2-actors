@@ -19,7 +19,6 @@ def say_hello_world(m):
 def main():
     """Main entry to grab message context from user input"""
     context = get_context()
-    print(context)
     message = context['raw_message']
     say_hello_world(message)
 
