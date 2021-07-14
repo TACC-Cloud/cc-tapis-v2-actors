@@ -6,8 +6,8 @@
     "alias": null,
     "reactor_stateless": true,
     "dockerfile": "Dockerfile",
-    "docker_namespace": "reshg",
+    "docker_namespace": "tacc",
     "docker_base_repo": "python:3.7-alpine",
-    "docker_hub_org": "reshg",
+    "docker_hub_org": "tacc",
     "project_slug": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}"
 }

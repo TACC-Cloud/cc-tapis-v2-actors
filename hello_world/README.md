@@ -1,12 +1,12 @@
-Echo actor
-==========
+Hello World Actor
+=================
 
 This is a cookiecutter template for a "hello-world" actor.
 We can use the template to create a new hello-world actor.  
 
 
     $ cd {{ cookiecutter.project_slug }}
-    Make the required changes to the files
+    Rename secrets.jsonsample to secrets.json
     $ tapis actors deploy  
 
 

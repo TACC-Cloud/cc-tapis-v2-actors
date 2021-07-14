@@ -6,7 +6,7 @@ We can use the template to create a new actor.
 
 
     $ cd {{ cookiecutter.project_slug }}
-    Make the required changes to the files
+    Rename secrets.jsonsample to secrets.json
     $ tapis actors deploy  
 
 
