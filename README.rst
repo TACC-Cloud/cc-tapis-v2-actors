@@ -87,7 +87,7 @@ With the new_actor/, let us deploy it.
 
 **Note:** Rename **secrets.jsonsample** to *secrets.json*
 
-
+Remember to put your actor under version control. Use a .gitignore file to avoid accidentally committing anything that contains API keys or passwords.
 
 .. code-block:: shell
 
