@@ -85,8 +85,7 @@ For more information on what the different files do, check our documentation at 
 
 With the new_actor/, let us deploy it.
 
-**Note**
-  Rename **secrets.jsonsample** to *secrets.json*
+**Note:** Rename **secrets.jsonsample** to *secrets.json*
 
 
 
