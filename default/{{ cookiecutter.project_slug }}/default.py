@@ -1,7 +1,6 @@
 """
 default actor to print the message from user input
 """
-
 from agavepy.actors import get_context
 
 
@@ -11,6 +10,7 @@ def main():
     print(context)
     m = context['raw_message']
     print("Actor received message: {}".format(m))
+
 
 if __name__ == '__main__':
     main()

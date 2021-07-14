@@ -18,5 +18,6 @@ def main():
     message = context['raw_message']
     echo(message)
 
+
 if __name__ == '__main__':
     main()

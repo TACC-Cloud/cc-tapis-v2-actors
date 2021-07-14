@@ -3,7 +3,6 @@ say Hello, World or the message received from user input
 
 :authors: Shweta Gopaulakrishnan (sgopal@tacc.utexas.edu)
 """
-
 from agavepy.actors import get_context
 
 
@@ -23,6 +22,7 @@ def main():
     print(context)
     message = context['raw_message']
     say_hello_world(message)
+
 
 if __name__ == '__main__':
     main()
