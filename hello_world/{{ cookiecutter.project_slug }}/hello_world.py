@@ -10,7 +10,7 @@ from agavepy.actors import get_context
 def say_hello_world(m):
     """Print message from user if present, else echo "Hello, World"""
     # if user input is an empty message
-    if m == " ":
+    if not m:
         print("Hello, World")
     # print the user input message
     else:
