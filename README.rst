@@ -52,19 +52,23 @@ But, we have more than a default template. To check our library of existing temp
 .. code-block:: shell
 
     $ tapis actors init --list-templates
-    +-----------+-----------+------------------------------------------------------------+----------+
-    | id        | name      | description                                                | level    |
-    +-----------+-----------+------------------------------------------------------------+----------+
-    | default   | Default   | Basic code and configuration skeleton                      | beginner |
-    | echo      | Echo      | Echo input message                                         | beginner |
-    | sd2e_base | sd2e_base | Default reactor context for docker://sd2e/reactors:python3 | beginner |
-    +-----------+-----------+------------------------------------------------------------+----------+
+    +--------------------+--------------------+--------------------------------------------------------+----------+
+    | id                 | name               | description                                            | level    |
+    +--------------------+--------------------+--------------------------------------------------------+----------+
+    | default            | Default            | Basic code and configuration skeleton                  | beginner |
+    | echo               | Echo               | Echo message                                           | beginner |
+    | hello_world        | Hello World        | Say Hello, World!                                      | beginner |
+    | sd2e_base          | sd2e_base          | Default reactor context for                            | beginner |
+    |                    |                    | docker://sd2e/reactors:python3                         |          |
+    | tacc_reactors_base | tacc_reactors_base | Default actor context for                              | beginner |
+    |                    |                    | docker://sd2e/reactors:python3                         |          |
+    +--------------------+--------------------+--------------------------------------------------------+----------+
 
 To use one of the above templates, we can do the following:
 
 .. code-block:: shell
 
-    $ tapis actors init --template echo
+    $ tapis actors init --template hello_world
     +-------+----------------------------------------------+
     | stage | message                                      |
     +-------+----------------------------------------------+
