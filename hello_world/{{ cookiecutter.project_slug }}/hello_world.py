@@ -1,14 +1,24 @@
+"""
+say Hello, World or the message received from user input
+
+:authors: Shweta Gopaulakrishnan (sgopal@tacc.utexas.edu)
+"""
+
 from agavepy.actors import get_context
 
 
-# function to say hello world
 def say_hello_world(m):
-    if not m:
-        print("Hello, World!")
+    """Print message from user if present, else echo "Hello, World"""
+    # if user input is an empty message
+    if m == " ":
+        print("Hello, World")
+    # print the user input message
     else:
         print(m)
 
+
 def main():
+    """Main entry to grab message context from user input"""
     context = get_context()
     print(context)
     message = context['raw_message']

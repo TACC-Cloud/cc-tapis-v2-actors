@@ -1,8 +1,8 @@
 Echo actor
 ==========
 
-This is a cookiecutter template for a "echo" actor.
-We can use the template to create a new echo actor.  
+This is a cookiecutter template for a "hello-world" actor.
+We can use the template to create a new hello-world actor.  
 
 
     $ cd {{ cookiecutter.project_slug }}

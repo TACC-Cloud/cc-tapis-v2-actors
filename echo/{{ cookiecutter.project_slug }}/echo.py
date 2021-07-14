@@ -1,11 +1,18 @@
+"""
+echo the message received from user input
+
+:authors: Shweta Gopaulakrishnan (sgopal@tacc.utexas.edu)
+"""
 from agavepy.actors import get_context
 
 
-# function to say hello world
 def echo(m):
+    """Echo message received from user input."""
     print("Echoing the message: {}".format(m))
 
+
 def main():
+    """Main entry to grab message context from user input"""
     context = get_context()
     print(context)
     message = context['raw_message']

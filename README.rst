@@ -79,6 +79,17 @@ To use one of the above templates, we can do the following:
 This would give a new_actor/ project with all the required files to help you create your own actor.
 For more information on what the different files do, check our documentation at `Tapis-CLI How-To-Guide <https://tapis-cli-how-to-guide.readthedocs.io/en/latest/actors/create_a_custom_actor.html>`_.
 
+With the new_actor/, let us deploy it.
+
+.. note::
+   Rename **secrets.jsonsample** to *secrets.json*
+
+
+.. code-block:: shell
+
+    $ cd new_actor/
+    $ tapis actors deploy
+    
 #################
 How To Contribute
 #################
