@@ -7,7 +7,7 @@
     "reactor_stateless": true,
     "dockerfile": "Dockerfile",
     "docker_namespace": "",
-    "docker_base_repo": "python:3.7-alpine",
+    "docker_base_repo": "python:3.7",
     "docker_hub_org": "",
     "project_slug": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}"
 }
