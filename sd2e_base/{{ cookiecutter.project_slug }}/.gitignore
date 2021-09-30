@@ -106,3 +106,4 @@ venv.bak/
 
 # Reactor-specific
 secrets.json
+.actorid
