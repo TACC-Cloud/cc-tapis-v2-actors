@@ -2,7 +2,7 @@
 do_reveal: not_so_secret
 debug: false
 logger:
-  client_key: F3VRMUNrPeaq84zp
+  client_key: ~
   path: /logger
   proto: http
   host: logger.sd2e.org
